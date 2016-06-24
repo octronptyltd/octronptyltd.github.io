@@ -44,6 +44,30 @@
 		});
 	};
 
+	var ScrollToAbout = function() {
+
+
+		$('body').on('click', '.scroll-to-about', function(e){
+			e.preventDefault();
+
+			$('html,body').animate({
+					scrollTop: $("#about").offset().top},
+				1000);
+			return false;
+		});
+	};
+	var ScrollToContact = function() {
+
+
+		$('body').on('click', '.scroll-to-contact', function(e){
+			e.preventDefault();
+
+			$('html,body').animate({
+					scrollTop: $("#contact").offset().top},
+				1000);
+			return false;
+		});
+	};
 	
 
 	var styleToggle = function() {
@@ -108,7 +132,7 @@
 
 		});
 		
-	}
+	};
 	
 	// Animations
 
@@ -156,6 +180,8 @@
 		gotToNextSection();
 		loaderPage();
 		ScrollNext();
+		ScrollToContact();
+		ScrollToAbout();
 		moreProjectSlider();
 		styleToggle();
 		

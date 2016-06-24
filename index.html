@@ -9,8 +9,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Octron</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Octron Pty Ltd" />
-	<meta name="keywords" content="octron, IT services, IT consultance, octron pty ltd, sydney it company" />
+	<meta name="description" content="Octron" />
+	<meta name="keywords" content="Octron octron, IT services, IT consultancy, octron pty ltd, sydney it company" />
 	<meta name="author" content="Farhad Yasir" />
 
  
@@ -54,23 +54,15 @@
 	}
 	
 	</script>
-	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
 	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
-
-	<!-- Viewport Units Buggyfill -->
 	<script src="js/viewport-units-buggyfill.js"></script>
-
-	<!-- Googgle Map -->
+	<script src="js/google.analytics.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
+	<script src="js/google.map.js"></script>
 
-	
 	<!-- Main JS  -->
 	<script src="js/main.js"></script>
 
@@ -91,8 +83,9 @@
 	<div id="fh5co-page">
 		<nav id="fh5co-nav" role="navigation">
 			<ul>
-				<li class="animate-box fh5co-active"><a href="index" class="transition">Home</a></li>
-				<li class="animate-box"><a href="about" class="transition">We we are</a></li>
+				<li class="animate-box fh5co-active"><a href="" class="transition">Home</a></li>
+				<li class="animate-box fh5co-active"><a class="scroll-to-about">About</a></li>
+				<li class="animate-box fh5co-active"><a class="scroll-to-contact">Connect</a></li>
 			</ul>
 		</nav>
 		
@@ -109,51 +102,74 @@
 			</div>
 			<div class="btn-next animate-box fh5co-learn-more">
 				<a href="#" class="scroll-btn">
-					<span>Portfolio</span>
 					<i class="icon-chevron-down"></i>
 				</a>
 			</div>
 		</header>
-		<!-- data-colorbg="#8cc53e"  -->
-		<div class="fh5co-project js-fh5co-waypoint" data-bgcolor="" data-next="yes">
-			<div class="container">
-				<div class="fh5co-project-inner row">
-					<div class="fh5co-imgs col-md-8 animate-box">
-						<div class="img-holder-1 animate-box">
-							<img src="images/work_1_large.jpg" alt="Free HTML5 Bootstrap Template">
-						</div>
-						<div class="img-holder-2 animate-box">
-							<img src="images/work_1_small.jpg" alt="Free HTML5 Bootstrap Template">
-						</div>
-					</div>
-					<div class="fh5co-text col-md-4 animate-box">
-						<h2>Guide Landing Page</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p><a href="" class="btn btn-light btn-outline transition">View Project</a></p>
-					</div>
-				</div>
 
-			</div>
-		</div>
 		<!-- data-colorbg="#FF6138" -->
-		<div class="fh5co-project js-fh5co-waypoint fh5co-reverse" data-colorbg="" data-next="yes">
+
+		<div class="js-fh5co-waypoint fh5co-project-detail" id="fh5co-main" data-colorbg="yes">
 			<div class="container">
-				<div class="fh5co-project-inner row">
-					<div class="fh5co-imgs col-md-8 col-md-push-4 animate-box">
-						<div class="img-holder-1 animate-box">
-							<img src="images/work_2_large.jpg" alt="Free HTML5 Bootstrap Template">
+
+
+				<div class="row">
+					<div class="col-md-12">
+
+						<div class="row animate-box row-bottom-padded-sm" id="about">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> About</h3>
+							</div>
+							<div class="col-md-9">
+
+								<p class="fh5co-lead">Design is the creation of a plan or convention for the construction of an object or a system as in architectural blueprints, engineering drawings, business processes, circuit diagrams and sewing patterns.</p>
+								<p>Design is the creation of a plan or convention for the construction of an object or a system as in architectural blueprints, engineering drawings, business processes, circuit diagrams and sewing patterns. Design is the creation of a plan or convention for the construction of an object or a system as in architectural blueprints, engineering drawings, business processes, circuit diagrams and sewing patterns.</p>
+							</div>
 						</div>
-						<div class="img-holder-2 animate-box">
-							<img src="images/work_2_small.jpg" alt="Free HTML5 Bootstrap Template">
+
+						<div class="row animate-box row-bottom-padded-sm" id="contact">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> Connect</h3>
+							</div>
+							<div class="col-md-4">
+								<ul class="fh5co-social fh5co-stack">
+									<li>
+										<a href="#"><i class="icon-mail2"></i> Send Email</a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-twitter"></i> Twitter</a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-facebook"></i> Facebook</a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-instagram"></i> Instagram</a>
+									</li>
+
+								</ul>
+							</div>
+							<div class="col-md-4">
+								<p class="fh5co-lead"> Address</p>
+								<address>254 Lakemba street, <br>
+									Lakemba, NSW-2195 <br>
+									Australia
+								</address>
+							</div>
 						</div>
-					</div>
-					<div class="fh5co-text col-md-4 col-md-pull-8 animate-box">
-						<h2>Sprint for Portfolio</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p><a href="" class="btn btn-light btn-outline transition">View Project</a></p>
+
+						<div class="row animate-box">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 3</span> Where we are</h3>
+							</div>
+							<div class="col-md-12">
+								<div id="fh5co-map"></div>
+							</div>
+						</div>
+
+
+
 					</div>
 				</div>
-
 			</div>
 		</div>
 		<footer id="fh5co-footer" class="js-fh5co-waypoint">
