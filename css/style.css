@@ -12,14 +12,14 @@
 *
 * ======================================================= */
 html {
-  background: #222222;
+  background: #8c8c8c;
 }
 
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Slabo 27px", "Work Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 34px;
-  background: #222222;
+  background: #8c8c8c;
   font-weight: 300;
   opacity: 0;
   color: #222;
@@ -45,7 +45,7 @@ p, figure {
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Slabo 27px", "Work Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 1.5em 0 1.5em 0;
 }
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Slabo 27px", "Work Sans", Arial, sans-serif;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -601,7 +601,7 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-section {
   padding: 7em 0;
   position: relative;
-  color: rgba(255, 255, 255, 0.5);
+  color: #d6d6d6;
 }
 #fh5co-main small,
 .fh5co-section small {
@@ -611,7 +611,7 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-section .fh5co-lead {
   font-size: 26px;
   line-height: 38px;
-  color: rgba(255, 255, 255, 0.6);
+  color: #003f5f;
 }
 @media screen and (max-width: 768px) {
   #fh5co-main .fh5co-lead,
@@ -622,7 +622,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-footer {
-  padding: 7em 0em;
+  padding: 2em 0em;
   color: rgba(255, 255, 255, 0.2);
   position: relative;
 }
@@ -690,7 +690,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: none;
 }
 .fh5co-testimony p {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Slabo 27px", "Work Sans", Arial, sans-serif;
   font-size: 20px;
   line-height: 38px;
   font-style: italic;
@@ -987,4 +987,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo-img{
   width:100%
+}
+
+.octron-email{
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.fh5co-social li a{
+  color: #ef8020 !important;
 }
